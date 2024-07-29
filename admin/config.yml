@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-username/my-landing-page # Замените на ваш репозиторий
+  repo: https://idrakmir.github.io/SiteWithAdmin # Замените на ваш репозиторий
   branch: main
 
 media_folder: "static/img"
