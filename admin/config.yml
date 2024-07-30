@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://idrakmir.github.io/SiteWithAdmin # Замените на ваш репозиторий
+  repo: idrakmir/SiteWithAdmin # Замените на ваш репозиторий
   branch: main
 
 media_folder: "static/img"

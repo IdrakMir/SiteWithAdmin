@@ -11,11 +11,10 @@
 <body>
     <!-- Конфигурация Netlify CMS -->
     <script>
-        if (window.NetlifyCMS) {
-            NetlifyCMS.init({ config: '/admin/config.yml' });
-        } else {
-            console.error('Netlify CMS не загружен');
-        }
+        window.CMS_MANUAL_INIT = true;
+        window.addEventListener('load', function () {
+            NetlifyCms.init({ config: '/SiteWithAdmin/admin/config.yml' });
+        });
     </script>
 </body>
 
